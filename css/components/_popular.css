@@ -1,0 +1,49 @@
+.popular{
+    margin-bottom: 140px;
+}
+.popular__title{
+    margin-bottom: 20px;
+}
+.popular__desc{
+    text-align: center;
+    opacity: 0.6;
+    max-width: 65%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.popular__cards{
+    justify-content: space-between;
+}
+.popular__card{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 360px;
+    max-height: 500px;
+    overflow: hidden;
+}
+.popular__card:hover{
+    opacity: 0.8;
+}
+.popular__card-img{
+    margin-bottom: 32px;
+}
+.popular__card-title{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 12px;
+}
+.popular__card-desc{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--black-color);
+    max-width: 82%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}

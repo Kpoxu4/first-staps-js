@@ -1,0 +1,228 @@
+@media(max-width: 1170px){
+
+    .first{
+        margin-bottom: 80px;
+    }
+    .first__title{
+        max-width: 100%;
+    }
+    .popular{
+        margin-bottom: 80px;
+    }
+    .offers {
+        margin-bottom: 80px;
+    }
+    .blog{
+        margin-bottom: 80px;
+    }
+}
+@media(max-width: 1130px){
+    .popular__card{
+        max-width: 320px;
+        max-height: 500px;
+    }
+    .footer__logo{
+        padding-right: 100px;
+    }
+    .nav-first__links{
+        padding-right: 80px;
+    }
+}
+@media(max-width: 1130px){
+    .wrapper {
+        width: 700px;
+    }
+    .footer__items{
+        justify-content: space-between;
+    }
+}
+@media(max-width: 1000px){
+    .first__title{
+        font-size: 55px;
+    }
+    .popular__card{
+        max-width: 260px;
+        max-height: 500px;
+    }
+    .blog__grid{
+        gap: 10px;
+    }
+    .blog__grid-small{
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+    .burger{
+        position: static;
+    }
+    .header__nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background:url(../img/first-bg.jpg) no-repeat center;
+        z-index: 10;
+        padding: 75px;
+        margin-left: 0;
+        transform: translateX(100%);
+        transition: 0.3s linear;
+    }
+     .header__nav_active{
+
+       transform: translateX(0); 
+    }
+    .header__nav-close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+    .header__nav-close-line{
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+    }   
+    .header__nav-close-line:first-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .header__nav-close-line:last-child{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .nav-first__links{
+        padding-right: 30px;
+    }
+    .first{
+        margin-bottom: 30px;
+    }
+    .popular__desc {
+        margin-bottom: 20px;
+    }
+    .popular{
+         margin-bottom: 30px;
+    }
+    .offers__desc{
+        margin-bottom: 20px;
+    }
+    .offers{
+        margin-bottom: 30px;
+    }
+    .blog__desc{
+        margin-bottom: 20px;
+    }
+    .blog{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 898px){
+    .footer__item:last-child{
+        padding-top: 10px;
+        padding-bottom: 100px;
+        margin: 0 auto;
+    }
+
+}
+@media(max-width: 840px){
+    .first{
+        padding-top: 220px;
+    }
+    .popular__cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .popular__card{
+        max-width: 360px;
+        max-height: 500px;
+    }
+    .blog__grid{
+        display: block;
+    }
+    .blog__grid-items{
+        margin-bottom: 50px;
+    }
+    .blog__grid-small{
+        display: flex;
+    }
+}
+@media(max-width: 780px){
+    .header .header__btn{
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+    }
+    .first__title{
+        margin-bottom: 140px;
+    }
+}
+@media(max-width: 690px){
+     .first__desc{
+        max-width: 100%;
+    }
+    .wrapper{
+        width: 350px;
+    }
+    .btn-line{
+        width: 30px;
+    }
+    .blog__grid-small{
+        display:grid
+    }
+}
+@media(max-width: 600px){
+   
+    .footer__items{
+        flex-direction: column;
+        align-content: center;
+
+    }
+    .footer__item{
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+    .footer__item:last-child{
+        padding-top: 30px;
+        
+        
+    }
+    .blog__grid-items{
+        
+        text-align: center;
+    }
+    .blog__grid-small{
+        display: block;
+        
+    }
+    .blog__desc-big {
+        max-width: 100%;
+    }
+  
+}   
+@media(max-width: 490px){
+    .first__title{
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    .footer__form{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .footer__title{
+        padding-left: 0;
+    }
+    .footer__item{
+        padding-left: 15px;
+    }
+    .footer__item:last-child {
+    padding-left: 0;
+    }
+}
